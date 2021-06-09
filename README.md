@@ -2,11 +2,23 @@
 
 
 Project ID : B21 - CAP00430
+
 Project Name : Covid - 19 Prediction Using Respiratory Disease Images Imported in a Mobile Application 
+
 Project Themes : Healthcare
+
+Mobile Development : wahyuirgan/Predict-19(github.com)
+
+Github Flask : haidarfahmii/predict-covid-model(github.com)
+
+
 
 
 # Download the dataset
+
+```
+!wget https://md-datasets-cache-zipfiles-prod.s3.eu-west-1.amazonaws.com/jctsfj2sfn-1.zip
+```
 
 
 # Introduction
@@ -24,7 +36,8 @@ Up until now COVID-19 case is still continuing and recorded on WHO Website on Ju
 
 # Data Preprocessing 
 
-# Data augmentation
+# Data Augmentation
+
 
 # Model Training
 During the training we using the VGG16 architecture based pre - trained model. VGG16 pretrained model classified around 1000 classes and changed the classifier layers into 3 classes ( Normal, Covid-19, Pneumonia).
@@ -36,16 +49,16 @@ The technique used is transfer learning where a model trained on one task is rep
 Classification metrics
 
 There are for type of outcome that would be occur
-
 True positives are when you predict an observation belongs to a class and it actually does belong to that class.
 
 True negatives are when you predict an observation does not belong to a class and it actually does not belong to that class.
-
 False positives occur when you predict an observation belongs to a class when in reality it does not.
-
 **False negatives **occur when you predict an observation does not belong to a class when in fact it does.
 
 The four outcomes can be plot using confusion matrix:
+
+DICT : 0 = Normal, 1 = COVID -19, 2 = Pneumonia
+[![message-Image-1623214757509.jpg](https://i.postimg.cc/QNqTxtKh/message-Image-1623214757509.jpg)](https://postimg.cc/XXpJsngz)
 
 
 
