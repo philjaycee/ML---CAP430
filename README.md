@@ -11,6 +11,8 @@ Mobile Development : wahyuirgan/Predict-19(github.com)
 
 Github Flask : haidarfahmii/predict-covid-model(github.com)
 
+![alt text](https://github.com/wahyuirgan/Predict-19/blob/mobile-dev/app/src/main/ic_launcher-playstore.png?raw=true)
+
 
 
 
