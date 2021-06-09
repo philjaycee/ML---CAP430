@@ -34,25 +34,6 @@ Up until now COVID-19 case is still continuing and recorded on WHO Website on Ju
 
 ![alt text](https://raw.githubusercontent.com/ramkicse/covid19-chest-x-ray/master/readme_assets/flowchart.jpg)
 
-# Dataset:
- 
-# Data Augmentation
-
-Another way to mitigate data deficiency is data augmentation: from the limited training data, creating new image-label pairs and adding the synthesized pairs into the training set. Color Jitter, Scaling, Flip, Rotations and other affine transformations are typical. This makes the neural network exposed to a wide variety of variations and less likely to recognize unwanted characteristics in the data-set.
-
-Data set preparation
-
-
-
-To train a binary classification model for predicting whether an X-ray image is COVID or non-COVID, we collect 405 X Ray that are negative for COVID means Normal patient X-ray and 114 which are positive for covid19 and 423 pneumonia patient X-ray. We split the dataset into a train, validation,.
-
-Table summarizes the number of COVID and Normal images in each set. All images are resized to 224x224. The hyperparameters are tuned on the validation set. The weight parameters in the networks were optimized using Adam. We evaluate our method using five metrics: (1) Accuracy; (2) Precision; (3) Recall; (4) F1 score; (5) Area under ROC curve (AUC).
-
-Our dataset is an imbalance dataset, meaning the number of x-ray images in the training dataset for each class label is not balanced. Imbalanced classification refers to a classification predictive modeling problem where the number of examples in the training dataset for each class label is not balanced. That is, where the class distribution is not equal or close to equal, and is instead biased or skewed.
-
-
-
-
 # Model Training
 During the training we using the VGG16 architecture based pre - trained model. VGG16 pretrained model classified around 1000 classes and changed the classifier layers into 3 classes ( Normal, Covid-19, Pneumonia).
 
