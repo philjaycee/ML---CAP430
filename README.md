@@ -69,6 +69,12 @@ The four outcomes can be plot using confusion matrix:
 DICT : 0 = Normal, 1 = COVID -19, 2 = Pneumonia
 [![message-Image-1623214757509.jpg](https://i.postimg.cc/QNqTxtKh/message-Image-1623214757509.jpg)](https://postimg.cc/XXpJsngz)
 
+Three main metrics used for classification models are precision, accuracy, and recall.
+
+# AUC - ROC Curve
+
+AUC - ROC curve is a performance measurement for the classification problems at various threshold settings. ROC is a probability curve and AUC represents the degree or measure of separability. It tells how much the model is capable of distinguishing between classes. Higher the AUC, the better the model is at predicting 0s as 0s and 1s as 1s. By analogy, the Higher the AUC, the better the model is at distinguishing between patients with the disease and no disease.
+
 
 
 
