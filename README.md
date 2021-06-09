@@ -96,6 +96,26 @@ AUC - ROC curve is a performance measurement for the classification problems at 
 
 [![message-Image-1623225344675.jpg](https://i.postimg.cc/kMHLwNX1/message-Image-1623225344675.jpg)](https://postimg.cc/RqcPZHtK)
 
+# Saliency Maps 
+
+Grad-CAM is a more versatile version of CAM that can produce visual explanations for any arbitrary CNN, even if the network contains a stack of fully connected layers too (e.g. the VGG networks).  So it is applicable to only the CNN architectures that perform global average pooling over convolutional maps immediately before prediction (i.e conv feature maps → global average pooling → softmax layer). By using the model interpretability we will be able to figure out why the predictions not supposed we want to be.
+
+![alt_text](https://camo.githubusercontent.com/6cfc4c55fc42379fb9866f5c2bf410d49805a435e57c6d3116263b20d8c08d1d/68747470733a2f2f6c68342e676f6f676c6575736572636f6e74656e742e636f6d2f797243747755343566344e6461387676494258493459694a46717679425347655a747a7a424d2d4f65713034797366676c6257457469486341526f444f67766e6e5674784d41705452485a4b5a45787a5a694d646f6b614d424164494e756f666535776d5f5a46555755422d4f2d5a5071663757337761525241444879454e59734a6b2d562d5737)
+
+[![message-Image-1623236142170.jpg](https://i.postimg.cc/wMpNwph9/message-Image-1623236142170.jpg)](https://postimg.cc/VrK5N2Gh)
+
+[![message-Image-1623236232306.jpg](https://i.postimg.cc/CLvZqD6h/message-Image-1623236232306.jpg)](https://postimg.cc/ykZYqJHt)
+
+
+# Oxygen Avaibility decision
+The decision that have been made to determine whether someone is COVID - 19 can made a life saver decision if right action taken by, especially for people who have organ complication and other acute respiratory disease, we try to make a decision making algorithm based on several classes by using classification to generate more better decision, combined with ct image scan it can mitigate current death toll.
+
+
+
+
+
+
+
 
 
 
