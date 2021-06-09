@@ -7,9 +7,9 @@ Project Name : Covid - 19 Prediction Using Respiratory Disease Images Imported i
 
 Project Themes : Healthcare
 
-Mobile Development : wahyuirgan/Predict-19(github.com)
+Mobile Development : https://github.com/wahyuirgan/Predict-19
 
-Github Flask : haidarfahmii/predict-covid-model(github.com)
+Github Flask : https://github.com/haidarfahmii/predict-covid-model
 
 ![alt text](https://github.com/wahyuirgan/Predict-19/blob/mobile-dev/app/src/main/ic_launcher-playstore.png?raw=true)
 
