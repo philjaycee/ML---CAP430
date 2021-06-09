@@ -41,6 +41,9 @@ Up until now COVID-19 case is still continuing and recorded on WHO Website on Ju
 
 # Model Training
 During the training we using the VGG16 architecture based pre - trained model. VGG16 pretrained model classified around 1000 classes and changed the classifier layers into 3 classes ( Normal, Covid-19, Pneumonia).
+
+The technique used is transfer learning where a model trained on one task is repurposed for another task.
+
 ![image](https://user-images.githubusercontent.com/67178498/121296609-2828e200-c91b-11eb-9352-ac5a6b801137.png)
 
 
@@ -49,8 +52,6 @@ Train the model against our dataset for 100 epoch using Adam Optimizer with 0.00
 [![message-Image-1623215586612.jpg](https://i.postimg.cc/W4RypSxD/message-Image-1623215586612.jpg)](https://postimg.cc/xXR5tGfY)
 [![message-Image-1623215694938.jpg](https://i.postimg.cc/vB0Xnv2t/message-Image-1623215694938.jpg)](https://postimg.cc/G8skwvC4)
 
-
-The technique used is transfer learning where a model trained on one task is repurposed for another task.
 
 # Evaluation metrics 
 
