@@ -93,6 +93,8 @@ Grad-CAM is a more versatile version of CAM that can produce visual explanations
 # Oxygen Avaibility decision
 The decision that have been made to determine whether someone is COVID - 19 can made a life saver decision if right action taken by, especially for people who have organ complication and other acute respiratory disease, we try to make a decision making algorithm based on several classes by using classification to generate more better decision, combined with ct image scan it can mitigate current death toll.
 
+(For current algorithm still research until now)
+
 
 
 
